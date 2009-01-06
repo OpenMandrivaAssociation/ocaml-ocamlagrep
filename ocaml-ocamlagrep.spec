@@ -34,10 +34,12 @@ using %{name}.
 %build
 %make
 cat > META <<EOF
+name = "ocamlagrep"
 description = "string searching with errors"
 version = "%{version}"
 archive(byte) = "agrep.cma"
 archive(native) = "agrep.cmxa"
+directory = "+agrep"
 EOF
 
 %install
