@@ -3,7 +3,7 @@
 
 Name:           %{name}
 Version:        1.0
-Release:        %mkrel 1
+Release:        %mkrel 2
 
 Summary:        string searching with errors
 License:        LGPL
