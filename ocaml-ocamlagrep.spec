@@ -71,3 +71,18 @@ rm -rf %{buildroot}
 %exclude %{_libdir}/ocaml/agrep/*.cma
 %exclude %{_libdir}/ocaml/agrep/*.so
 
+
+
+%changelog
+* Sun Jun 28 2009 Guillaume Rousse <guillomovitch@mandriva.org> 1.0-2mdv2010.0
++ Revision: 390296
+- rebuild
+
+* Tue Jan 06 2009 Florent Monnier <blue_prawn@mandriva.org> 1.0-1mdv2009.1
++ Revision: 326348
+- META file
+- import ocaml-ocamlagrep
+
+
+* Sun Dec 21 2008 Florent Monnier <fmonnier@linux-nantes.org> 1.0-1mdv
+- Initial RPM release.
