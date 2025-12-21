@@ -11,6 +11,7 @@ Group:          Development/Other
 URL:            https://pauillac.inria.fr/~xleroy/software.html#agrep
 Source0:        http://caml.inria.fr/distrib/bazar-ocaml/%{up_name}-%{version}.tar.gz
 
+BuildRequires:	make
 BuildRequires:  ocaml
 BuildRoot:      %{_tmppath}/%{name}-%{version}
 
